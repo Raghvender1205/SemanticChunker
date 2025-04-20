@@ -1,0 +1,15 @@
+[project]
+name = "semantic-chunker"
+version = "0.1.0"
+description = "A semantic chunker for text using embeddings and clustering"
+authors = ["Raghvender <raghvender1205@gmail.com>"]
+dependencies = [
+    "sentence-transformers>=3.0.0",
+    "scikit-learn",
+    "transformers",
+    "numpy",
+    "tqdm"
+]
+
+[project.scripts]
+semantic_chunker = "semantic_chunker.cli:main"
