@@ -1,7 +1,7 @@
 import argparse
 import json
 import sys
-from semantic_chunker.core import SemanticChunker
+from semantic_chunker.chunker import SemanticChunker
 
 def main():
     parser = argparse.ArgumentParser(
